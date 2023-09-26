@@ -1,0 +1,73 @@
+# Settings
+	# Input
+		input * {
+			xkb_layout us,ar
+			dwt disabled
+			tap enabled
+		}
+		
+	# Wallpaper
+		output * bg ~/Downloads/wallpaper.jpg fill
+
+	# Gaps
+		gaps inner 10
+
+	# Borders
+		default_border none
+
+# Rules
+	assign [title=".*Thunderbird.*"] workspace 5
+	
+# Startup applications
+	exec yambar
+	exec dunst
+bindsym {
+	# Moving to workspaces
+		Mod4+1 workspace 1
+		Mod4+2 workspace 2
+		Mod4+3 workspace 3
+		Mod4+4 workspace 4
+		Mod4+5 workspace 5
+		
+	# Moving windows to workspaces
+		Mod4+Shift+1 move workspace 1
+		Mod4+Shift+2 move workspace 2
+		Mod4+Shift+3 move workspace 3
+		Mod4+Shift+4 move workspace 4
+		Mod4+Shift+5 move workspace 5
+		
+	# Controls
+		Mod4+q kill
+		Mod4+a exit
+		Mod4+r reload
+
+	# Lauch windows
+		Mod4+return exec foot
+		Mod4+d exec "bemenu-run -n --nf '#FFFFFF' --nb '#141b23' --tf '#FFFFFF' --tb '#141b23' --ff '#FFFFFF' --fb '#141b23' --cf '#FFFFFF' --cb '#141b23' --af '#FFFFFF' --ab '#141b23' --scf '#FFFFFF' --scb '#141b23' --sb '#FFFFFF' --sf '#FFFFFF' --hb '#FFFFFF' --hf '#141b23' --fn 'SourceCodePro' -l 5 -p 'Launcher'"
+
+	# Window size controls
+		Mod4+KP_Add resize grow width 10
+		Mod4+KP_Subtract resize shrink width 10
+		Mod4+Shift+KP_Add resize grow height 10
+		Mod4+Shift+KP_Subtract resize shrink height 10
+
+	# Window position controls
+		Mod4+Up move up
+		Mod4+Down move down
+		Mod4+Right move right
+		Mod4+Left move left
+	
+	# Floating toggle
+		Mod4+s floating toggle
+
+	# Keyboard layout controls
+		Mod4+Tab input * xkb_switch_layout next
+
+	# Audio controls
+		XF86AudioRaiseVolume exec "pamixer -i 10"
+		XF86AudioLowerVolume exec "pamixer -d 10"
+		XF86AudioMute exec "pamixer -t"
+	# Brightness controls
+		XF86MonBrightnessUp exec "brightnessctl s +10%"
+		XF86MonBrightnessDown exec "brightnessctl s 10%-"
+}
