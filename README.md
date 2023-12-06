@@ -1,7 +1,8 @@
 # Dotfiles
-My personal dotfiles for Sway,Foot and Yambar
 
 ![Screenshot](./screenshot.png)
+
+My personal dotfiles for Sway,Foot and Yambar
 
 ### Table of contents:
   - [Requirements](#Requirements)
