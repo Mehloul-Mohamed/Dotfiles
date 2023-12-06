@@ -8,19 +8,20 @@
 		
 	# Wallpaper
 		output * bg ~/Downloads/wallpaper.jpg fill
+	# Display scaling
+		output * scaling 1.25
 
 	# Gaps
 		gaps inner 10
 
 	# Borders
 		default_border none
-
-# Rules
-	assign [title=".*Thunderbird.*"] workspace 5
 	
 # Startup applications
 	exec yambar
 	exec dunst
+
+# Keybinds
 bindsym {
 	# Moving to workspaces
 		Mod4+1 workspace 1
