@@ -2,7 +2,7 @@
 
 ![Screenshot](./screenshot.png)
 
-My personal dotfiles for Sway, Foot, ZSH and Yambar
+My personal dotfiles for Sway, Kitty, ZSH and Yambar
 
 ### Table of contents:
   - [Requirements](#Requirements)
@@ -10,7 +10,7 @@ My personal dotfiles for Sway, Foot, ZSH and Yambar
 
 ### Requirements:
   - Sway
-  - Foot
+  - Kitty (configuration for Foot is also available)
   - Yambar
   - ZSH
 ### wallpaper:
