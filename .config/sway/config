@@ -43,7 +43,7 @@ bindsym {
 		Mod4+r reload
 
 	# Lauch windows
-		Mod4+return exec foot
+		Mod4+return exec kitty
 		Mod4+d exec "bemenu-run -n --nf '#FFFFFF' --nb '#141b23' --tf '#FFFFFF' --tb '#141b23' --ff '#FFFFFF' --fb '#141b23' --cf '#FFFFFF' --cb '#141b23' --af '#FFFFFF' --ab '#141b23' --scf '#FFFFFF' --scb '#141b23' --sb '#FFFFFF' --sf '#FFFFFF' --hb '#FFFFFF' --hf '#141b23' --fn 'SourceCodePro' -l 5 -p 'Launcher'"
 
 	# Window size controls
