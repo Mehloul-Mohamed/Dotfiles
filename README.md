@@ -8,9 +8,10 @@ My personal dotfiles for Sway,Foot and Yambar
   - [wallpaper](#wallpaper)
 
 ### Requirements:
-  - The Sway wayland compositor
-  - The Foot terminal
+  - Sway
+  - Foot
   - Yambar
-### wallpaper 
-Size:2832x1593
-cropped from the top left side of [this image](https://unsplash.com/photos/uklSGxYlp64).
+  - ZSH
+### wallpaper:
+  - **Size**: 2832x1593px  
+    *cropped from the top-left side of [this image](https://unsplash.com/photos/uklSGxYlp64).
