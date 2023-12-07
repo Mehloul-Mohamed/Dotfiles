@@ -9,7 +9,7 @@
 	# Wallpaper
 		output * bg ~/Downloads/wallpaper.jpg fill
 	# Display scaling
-		output * scaling 1.25
+		output * scale 1.25
 
 	# Gaps
 		gaps inner 10
