@@ -10,7 +10,7 @@ My personal dotfiles for Sway, Kitty, ZSH and Yambar
 
 ### Requirements:
   - Sway
-  - Kitty (configuration for Foot is also available)
+  - Kitty or Foot
   - Yambar
   - ZSH
 ### wallpaper:
