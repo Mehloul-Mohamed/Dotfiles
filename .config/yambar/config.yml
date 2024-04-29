@@ -1,12 +1,74 @@
 bar: {
-    "height":75,
+    "height":44,
     "location":top,
     "background":141b23A9,
     "layer":bottom,
-    "font":JetBrainsMonoExtraLight-48,
+    "font":JetBrainsMonoNerdFont-36,
     "foreground":FFFFFFFF,
     "margin":2,
     "right":[
+        {
+            "battery":{
+                "name":"BAT0",
+                "content":{
+                    "map":{
+                        "conditions":{
+                            "(capacity<=10)":{
+                                "string":{
+                                    "foreground":FF0000FF,
+                                    "text":"󰪞",
+                                }
+                            },
+                            "(capacity>10)&&(capacity<=20)":{
+                                "string":{
+                                    "foreground":FFFF00FF,
+                                    "text":"󰪟",
+                                }
+                            },
+                            "(capacity>20)&&(capacity<=40)":{
+                                "string":{
+                                    "text":"󰪠",
+                                }
+                            },
+                            "(capacity>40)&&(capacity<=60)":{
+                                "string":{
+                                    "text":"󰪡",
+                                }
+                            },
+                            "(capacity>60)&&(capacity<=70)":{
+                                "string":{
+                                    "text":"󰪢",
+                                }
+                            },
+                            "(capacity>70)&&(capacity<=80)":{
+                                "string":{
+                                    "text":"󰪣",
+                                }
+                            },
+                            "(capacity>80)&&(capacity<=90)":{
+                                "string":{
+                                    "text":"󰪤",
+                                }
+                            },
+                            "(capacity>90)&&(capacity<=100)":{
+                                "string":{
+                                    "text":"󰪥",
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "label": {
+                "content":{
+                    "string":{
+                        "text":" ",
+                    } 
+                }
+            } 
+        },
         {
             "pulse":{
                 "content":{
@@ -66,7 +128,7 @@ bar: {
                 "content":{
                     "string":{
                         "text":"{time}",
-                        "font":"JetBrainsMonoExtraLight-50",
+                        "font":"JetBrainsMonoNerdFont-37",
                     }
                 }
             }
